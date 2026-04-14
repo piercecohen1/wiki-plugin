@@ -1,0 +1,28 @@
+{
+  "name": "wiki-plugin",
+  "owner": {
+    "name": "Pierce Cohen",
+    "url": "https://github.com/piercecohen1"
+  },
+  "metadata": {
+    "description": "Personal LLM Wiki plugin for Obsidian",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "wiki",
+      "source": {
+        "source": "github",
+        "repo": "piercecohen1/wiki-plugin",
+        "ref": "main"
+      },
+      "description": "LLM Wiki plugin for Obsidian. Ingest, query, save, research, lint, and canvas operations for a persistent knowledge vault.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Pierce Cohen"
+      },
+      "license": "MIT",
+      "repository": "https://github.com/piercecohen1/wiki-plugin"
+    }
+  ]
+}
